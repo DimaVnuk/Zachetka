@@ -1,0 +1,15 @@
+.navbar-link-cont_wrap{
+    display: flex;
+}
+.navbar-link{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border: 1px solid #000;
+}
+.navbar-link_font{
+    font-weight: bolder;
+}
