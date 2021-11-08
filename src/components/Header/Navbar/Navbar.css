@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 20px;
-    border: 1px solid #000;
+cursor: pointer;
 }
 .navbar-link_font{
     font-weight: bolder;
