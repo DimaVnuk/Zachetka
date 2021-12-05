@@ -1,6 +1,10 @@
 import React from "react";
 import Button from "../../Button/Button";
 
+import { Link } from "react-router-dom";
+import Popup from "../../Popup/Popup";
+import FormPopup from "../../Form/FormPopup/FormPopup";
+
 const btnMain = {
   background: "#ffeb00",
   color: "black",
@@ -11,6 +15,9 @@ const btnMain = {
 };
 
 function MainPaige() {
+  const [modalActive, setModalActive] = React.useState(false);
+
+ 
   return (
     <>
       <main className="main-cont main-cont_wrap">
@@ -23,10 +30,18 @@ function MainPaige() {
           </h1>
         </div>
         <div className="cont-with-button">
-          <Button>ДИПЛОМНАЯ РАБОТА</Button>
-          <Button>КУРСОВАЯ РАБОТА</Button>
-          <Button>ОТЧЕТ</Button>
-          <Button>ОНЛАЙН ТЕСТ</Button>
+        <Link to="/graduate" style={{ textDecoration: "none" }}>
+          <Button>Узнать больше</Button>
+          </Link>
+          <Link to="/course" style={{ textDecoration: "none" }}>
+          <Button>Отзывы</Button>
+          </Link>
+          <Link to="/report" style={{ textDecoration: "none" }}>
+          <Button>Отчет</Button>
+          </Link>
+          <Link to="/test" style={{ textDecoration: "none" }}>
+          <Button>Узнать стоимость</Button>
+          </Link>
         </div>
         <div className="desc-main-cont">
           <p className="desc-main">
@@ -35,7 +50,10 @@ function MainPaige() {
             написанию работ, сдачей контрольных работ и сессий.
           </p>
         </div>
-        <Button propsStyle={btnMain}>Заказать работу</Button>
+        <Button propsStyle={btnMain} onClickProps={() => setModalActive(true)}>Заказать работу</Button>
+        <Popup active={modalActive} setActive={setModalActive}>
+        <FormPopup/>
+      </Popup>
       </main>
     </>
   );

@@ -1,0 +1,23 @@
+.form-wrap{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-width{
+    width: 400px;
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit{
+    width: 120px;
+}
+
+.icon-close-wrap{
+    display: flex;
+    justify-content: end;
+}

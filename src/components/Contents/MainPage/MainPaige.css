@@ -4,12 +4,14 @@
 
 .main-cont_wrap {
   width: 100%;
-  height: 89.5vh;
+  height: 89.7vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("../../../assets/image/map.png");
+  background: url("https://media.istockphoto.com/photos/bible-study-multi-ethnic-group-multi-ethnic-group-of-friends-meet-for-picture-id1333641112?b=1&k=20&m=1333641112&s=170667a&w=0&h=_0ClNNxQJ-Z2beDR_B4R5KkdO8rLcJbZeTSI31qPaIY=");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cont-with-button {
@@ -24,11 +26,14 @@
   margin-bottom: 50px;
 }
 .title-main-font {
+  background: black;
   font-size: 55px;
   font-family: "Frank Ruhl Libre", serif;
   text-align: center;
   font-weight: bolder;
   letter-spacing: 2px;
+  color: aliceblue;
+  border-radius: 100px;
 }
 
 .sub-title-main-cont {
@@ -36,19 +41,23 @@
 }
 .sub-title {
   font-size: 35px;
+  background: black;
+  color: aliceblue;
+  border-radius: 100px;
+  padding: 15px;
 }
 
-.desc-main-cont{
-    width: 1170px;
+.desc-main-cont {
+  width: 1170px;
   height: 120px;
   margin-top: 30px;
 }
-.desc-main{
-    color: #2b2b2b;
-    font-size: 20px;
-    text-align: center;
+.desc-main {
+  color: #2b2b2b;
+  font-size: 20px;
+  text-align: center;
 }
 
-.btn-submit-main{
-    background: black;
+.btn-submit-main {
+  background: black;
 }

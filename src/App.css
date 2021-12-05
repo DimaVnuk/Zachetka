@@ -1,10 +1,17 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
 @import "./components/Header/Header.css";
 @import "./components/Header/Navbar/Navbar.css";
 @import "./components/Contents/MainPage/MainPaige.css";
 @import "./components/Button/Button.css";
+@import "./components/Popup/Popup.css";
+@import "./components/Form/FormPopup/FormPopup.css";
+@import "./components/Footer/Footer.css";
+@import "./components/Contents/GraduateWork/GratuadeBody.css";
+@import "./components/Slider/Slider.css";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@900&display=swap");

@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-function Button({children,propsStyle}) {
-    return (
-        <>
-            <div className="button" style={propsStyle}>
-                {children}
-            </div>
-        </>
-    )
+function Button({ children, propsStyle, onClickProps }) {
+  return (
+    <>
+      <div className="button" style={propsStyle} onClick={onClickProps}>
+        {children}
+      </div>
+    </>
+  );
 }
 
-export default Button
+export default Button;
