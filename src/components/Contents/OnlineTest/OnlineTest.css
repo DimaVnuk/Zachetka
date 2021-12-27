@@ -1,0 +1,13 @@
+.cont-calc{
+    width: 100%;
+    height: 89.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+}
+
+.desc-price{
+    width: 50%;
+}
+

@@ -11,6 +11,8 @@
 @import "./components/Contents/Congratulations/Congratulations.css";
 @import "./components/Contents/CourseWork/CourseWork.css";
 @import "./components/Contents/CourseWork/FeedBack/FeedBack.css";
+@import "./components/Contents/Report/Report.css";
+@import "./components/Contents/OnlineTest/OnlineTest.css";
 
 * {
   margin: 0;

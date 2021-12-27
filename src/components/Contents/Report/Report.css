@@ -1,0 +1,10 @@
+.title-map {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+.map-cont {
+    height: 89.7vh;
+  background: cornsilk;
+}

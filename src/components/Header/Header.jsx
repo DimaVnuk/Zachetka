@@ -17,11 +17,11 @@ function Header() {
           </div>
         </div>
         <div className="header-navbar__navbar-link-cont navbar-link-cont navbar-link-cont_wrap">
-          <NavbarLink>Инфо</NavbarLink>
+          {/* <NavbarLink>Инфо</NavbarLink>
           <NavbarLink>Услуги</NavbarLink>
           <NavbarLink>Заказать</NavbarLink>
           <NavbarLink>Готовые Работы</NavbarLink>
-          <NavbarLink>Меню</NavbarLink>
+          <NavbarLink>Меню</NavbarLink> */}
         </div>
       </header>
     </>

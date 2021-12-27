@@ -31,16 +31,16 @@ function MainPaige() {
         </div>
         <div className="cont-with-button">
         <Link to="/graduate" style={{ textDecoration: "none" }}>
-          <Button>Узнать больше</Button>
+          <Button>О нас</Button>
           </Link>
           <Link to="/course" style={{ textDecoration: "none" }}>
           <Button>Отзывы</Button>
           </Link>
           <Link to="/report" style={{ textDecoration: "none" }}>
-          <Button>Отчет</Button>
+          <Button>Карта</Button>
           </Link>
           <Link to="/test" style={{ textDecoration: "none" }}>
-          <Button>Узнать стоимость</Button>
+          <Button>Готовые работы</Button>
           </Link>
         </div>
         <div className="desc-main-cont">

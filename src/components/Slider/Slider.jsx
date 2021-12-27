@@ -11,7 +11,7 @@ function Slider() {
         />
         <Carousel.Caption className="font-slider">
           <h3>Качественно</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>Выполняем работы любой сложности и в любые сроки.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="slider-height">
@@ -23,7 +23,7 @@ function Slider() {
 
         <Carousel.Caption className="font-slider">
           <h3>Быстро</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Вы отдыхаете, мы выполняем</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="slider-height">
@@ -36,7 +36,7 @@ function Slider() {
         <Carousel.Caption className="font-slider">
           <h3>Дёшево</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Самы низкие цены и самые лучшие специалисты.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
