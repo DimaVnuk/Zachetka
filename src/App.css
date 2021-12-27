@@ -9,6 +9,8 @@
 @import "./components/Contents/GraduateWork/GratuadeBody.css";
 @import "./components/Slider/Slider.css";
 @import "./components/Contents/Congratulations/Congratulations.css";
+@import "./components/Contents/CourseWork/CourseWork.css";
+@import "./components/Contents/CourseWork/FeedBack/FeedBack.css";
 
 * {
   margin: 0;
