@@ -9,16 +9,16 @@
   border: 3px solid black;
   border-radius: 70px;
   background: cornsilk;
-  color:black;
+  color: black;
   font-size: 14px;
   font-weight: bolder;
   cursor: pointer;
 }
 
-.button:hover{
-    background: #ffeb00;
-    transform: scale(1.1);
-    transition: 0.5s;
-    color: black;
-    border: none;
+.button:hover {
+  background: #ffeb00;
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: black;
+  border: none;
 }

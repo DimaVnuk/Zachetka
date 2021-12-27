@@ -1,7 +1,8 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
-import { BsXLg } from "react-icons/bs";
+import { Link } from "react-router-dom";
+
 function FormPopup() {
   function sendEmail(e) {
     e.preventDefault();
@@ -21,9 +22,6 @@ function FormPopup() {
   return (
     <>
       <Form onSubmit={sendEmail}>
-        <div className="icon-close-wrap">
-          <BsXLg />
-        </div>
         <div className="form-wrap">
           <div>
             <Form.Group className="mb-3" controlId="formBasicName">
@@ -98,10 +96,6 @@ function FormPopup() {
                 name="deadline"
               />
             </Form.Group>
-            <Form.Group controlId="formFile" className="mb-3">
-              <Form.Label>Прикрепить файл</Form.Label>
-              <Form.Control type="file" />
-            </Form.Group>
             <Form.Group
               className="mb-3 form-width"
               controlId="formBasicPassword"
@@ -116,12 +110,13 @@ function FormPopup() {
             </Form.Group>
           </div>
         </div>
-
-        <div className="btn-flex">
-          <Button className="btn-submit" variant="light" type="submit">
-            Submit
-          </Button>
-        </div>
+        <Link to="/congratulations" style={{ color: "black", textDecoration: "none" }}>
+          <div className="btn-flex">
+            <Button className="btn-submit" variant="light" type="submit">
+              Submit
+            </Button>
+          </div>
+        </Link>
       </Form>
     </>
   );

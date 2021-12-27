@@ -8,6 +8,7 @@
 @import "./components/Footer/Footer.css";
 @import "./components/Contents/GraduateWork/GratuadeBody.css";
 @import "./components/Slider/Slider.css";
+@import "./components/Contents/Congratulations/Congratulations.css";
 
 * {
   margin: 0;

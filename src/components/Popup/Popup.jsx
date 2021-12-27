@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Popup({ active, setActive, children }) {
+function Popup({ active, setActive, children}) {
   return (
     
     <div

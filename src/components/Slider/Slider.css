@@ -1,4 +1,9 @@
-.slider-height{
-height: 800px;
-
+.slider-height {
+  height: 800px;
+}
+.font-slider {
+  border-radius: 150px;
+  background: black;
+  font-size: 30px;
+  color: white;
 }

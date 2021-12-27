@@ -8,6 +8,8 @@ import CourseWork from "./components/Contents/CourseWork/CourseWork";
 import Report from "./components/Contents/Report/Report";
 import OnlineTest from "./components/Contents/OnlineTest/OnlineTest";
 import Footer from "./components/Footer/Footer";
+import Congratulations from "./components/Contents/Congratulations/Congratulations";
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
       <Route path="/course" component={CourseWork} exact />
       <Route path="/report" component={Report} exact />
       <Route path="/test" component={OnlineTest} exact />
+      <Route path="/congratulations" component={Congratulations} exact />
     </>
   );
 }
