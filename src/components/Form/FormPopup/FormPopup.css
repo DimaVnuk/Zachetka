@@ -5,7 +5,7 @@
 }
 
 .form-width{
-    width: 400px;
+    width: 400px; 
 }
 
 .btn-flex{
@@ -14,10 +14,25 @@
 }
 
 .btn-submit{
+    border: 1px solid #000;
     width: 120px;
 }
 
-.icon-close-wrap{
-    display: flex;
-    justify-content: end;
-}
+
+
+@media only screen and (min-width: 320px) and (max-width: 1080px){
+    .form-wrap{
+        width: 260px;
+        flex-direction: column;
+        
+    }
+    .form-width{
+        width: 260px;
+    }
+    .btn-submit{
+        height: 35px;
+        margin-bottom: 5px;
+        background: whitesmoke;
+        border: 1px solid #000;
+    }
+  }

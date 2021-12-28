@@ -7,7 +7,6 @@ import GraduateWork from "./components/Contents/GraduateWork/GraduateWork";
 import CourseWork from "./components/Contents/CourseWork/CourseWork";
 import Report from "./components/Contents/Report/Report";
 import OnlineTest from "./components/Contents/OnlineTest/OnlineTest";
-import Footer from "./components/Footer/Footer";
 import Congratulations from "./components/Contents/Congratulations/Congratulations";
 
 
@@ -16,7 +15,6 @@ function App() {
     <>
       <Route path="/" component={Header} exact />
       <Route path="/graduate" component={Header} exact />
-      {/* <Route path="/graduate" component={Footer} exact /> */}
       <Route path="/course" component={Header} exact />
       <Route path="/report" component={Header} exact />
       <Route path="/test" component={Header} exact />

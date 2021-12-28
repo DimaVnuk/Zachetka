@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarLink from "./Navbar/NavbarLink";
+
 import { Link } from "react-router-dom";
 function Header() {
   return (
@@ -17,11 +17,6 @@ function Header() {
           </div>
         </div>
         <div className="header-navbar__navbar-link-cont navbar-link-cont navbar-link-cont_wrap">
-          {/* <NavbarLink>Инфо</NavbarLink>
-          <NavbarLink>Услуги</NavbarLink>
-          <NavbarLink>Заказать</NavbarLink>
-          <NavbarLink>Готовые Работы</NavbarLink>
-          <NavbarLink>Меню</NavbarLink> */}
         </div>
       </header>
     </>
