@@ -35,7 +35,7 @@
   border-left: 2px solid black;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 1080px){
   .title {
     width: 150px;
     height: 50px;
