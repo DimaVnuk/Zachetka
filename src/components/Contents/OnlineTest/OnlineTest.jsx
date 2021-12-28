@@ -1,5 +1,4 @@
 import React from "react";
-import { Calculator } from "react-mac-calculator";
 import { Table } from "react-bootstrap";
 function OnlineTest() {
   return (
