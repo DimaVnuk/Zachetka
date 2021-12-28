@@ -16,7 +16,7 @@ function App() {
     <>
       <Route path="/" component={Header} exact />
       <Route path="/graduate" component={Header} exact />
-      <Route path="/graduate" component={Footer} exact />
+      {/* <Route path="/graduate" component={Footer} exact /> */}
       <Route path="/course" component={Header} exact />
       <Route path="/report" component={Header} exact />
       <Route path="/test" component={Header} exact />

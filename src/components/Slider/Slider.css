@@ -7,3 +7,25 @@
   font-size: 30px;
   color: white;
 }
+.cont-black{
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1080px){
+  .slider-height {
+    height: auto;
+    background: black;
+  }
+  .font-slider {
+    font-size: 1rem;
+  }
+  .d-block{
+    height: 300px;
+  }
+  .cont-black{
+    display: flex;
+   justify-content: center;
+    background: whitesmoke;
+    height: 400px;
+  }
+}

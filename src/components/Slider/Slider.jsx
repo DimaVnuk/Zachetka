@@ -1,7 +1,12 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
+
+import Button from "../Button/Button";
+import Footer from "../Footer/Footer";
 function Slider() {
   return (
+    <>
     <Carousel>
       <Carousel.Item className="slider-height">
         <img
@@ -40,7 +45,26 @@ function Slider() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
+      
     </Carousel>
+    <div className="cont-black">
+    <div className="cont-with-button">
+        <Link to="/graduate" style={{ textDecoration: "none" }}>
+          <Button>О нас</Button>
+          </Link>
+          <Link to="/course" style={{ textDecoration: "none" }}>
+          <Button>Отзывы</Button>
+          </Link>
+          <Link to="/report" style={{ textDecoration: "none" }}>
+          <Button>Карта</Button>
+          </Link>
+          <Link to="/test" style={{ textDecoration: "none" }}>
+          <Button>Готовые работы</Button>
+          </Link>
+        </div>
+    </div>
+    <Footer/>
+    </>
   );
 }
 
